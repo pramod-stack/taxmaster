@@ -418,13 +418,19 @@
 .review:hover::after{ opacity:1 }
 .review__stars svg{
   transition:transform .25s var(--ease-spring) calc(var(--i, 0) * 50ms);
+  color:#F59E0B !important;
+  fill:#F59E0B !important;
+  stroke:#F59E0B !important;
 }
 .review:hover .review__stars svg{
-  transform:scale(1.2) rotate(-8deg);
+  transform:scale(1.18) rotate(-6deg);
+  color:#FBBF24 !important;
+  fill:#FBBF24 !important;
+  stroke:#FBBF24 !important;
 }
 
 /* ============================================================
-   12. FOUNDER: dark aurora + signature draw-in
+   12. FOUNDER: dark aurora
    ============================================================ */
 .section--dark .aurora__layer--a{
   background:
@@ -442,16 +448,6 @@
 }
 @media (max-width:900px){
   .section--dark .aurora{display:none}
-}
-
-.founder__sig-line svg path{
-  stroke-dasharray:600;
-  stroke-dashoffset:600;
-  transition:stroke-dashoffset 1.8s var(--ease-out-quart);
-}
-.founder__sig.is-in .founder__sig-line svg path,
-.founder__sig.reveal.is-in .founder__sig-line svg path{
-  stroke-dashoffset:0;
 }
 
 /* colorized founder cell icons — target svg since Lucide replaces the <i> */

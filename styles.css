@@ -26,7 +26,7 @@
   --radius-sm: 10px;
   --radius-lg: 22px;
   --wrap: 1200px;
-  --f-display: "Bricolage Grotesque", ui-sans-serif, system-ui, sans-serif;
+  --f-display: "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
   --f-body: "Geist", ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
   --f-serif: "Instrument Serif", "Iowan Old Style", Georgia, serif;
 }
@@ -548,17 +548,15 @@ i[data-lucide]{width:1em;height:1em;stroke-width:2}
 .founder__lede em{font-family:var(--f-serif);color:#fff;font-style:italic;font-weight:400;font-size:1.08em}
 
 .founder__sig{
-  display:flex;flex-direction:column;align-items:flex-start;gap:2px;
-  padding:20px 0 28px;
-  margin:0 0 40px;
-  border-top:1px solid rgba(255,255,255,.10);
-  border-bottom:1px solid rgba(255,255,255,.10);
+  display:inline-flex;flex-direction:column;align-items:flex-start;gap:6px;
+  padding:20px 0 0;
+  margin:0 0 44px;
+  border-top:1px solid rgba(255,255,255,.14);
 }
-.founder__sig-line{margin:-4px 0 4px -8px}
-.founder__sig-name{font-family:var(--f-display);font-weight:500;font-size:19px;color:#fff;letter-spacing:-.01em}
+.founder__sig-name{font-family:var(--f-display);font-weight:600;font-size:22px;color:#fff;letter-spacing:-.015em}
 .founder__sig-role{
-  font-family:ui-monospace, "SF Mono", monospace;font-size:11px;
-  letter-spacing:.16em;text-transform:uppercase;color:#8FA0B1;margin-top:2px;
+  font-family:ui-monospace, "SF Mono", monospace;font-size:11.5px;
+  letter-spacing:.16em;text-transform:uppercase;color:var(--gold);margin-top:2px;
 }
 
 .founder__grid{
@@ -661,9 +659,16 @@ i[data-lucide]{width:1em;height:1em;stroke-width:2}
   font-size:60px;line-height:.7;color:var(--gold);opacity:.35;
   content:"“";
 }
-.review__stars{display:flex;gap:2px;margin-bottom:12px}
-.review__stars i[data-lucide]{width:16px;height:16px;color:var(--gold);fill:var(--gold)}
-.review blockquote{font-family:var(--f-serif);font-size:19px;line-height:1.45;color:var(--ink-2);margin:0 0 16px;font-style:italic;letter-spacing:-.005em}
+.review__stars{display:flex;gap:4px;margin-bottom:14px}
+.review__stars svg,
+.review__stars .lucide-star,
+.review__stars i[data-lucide]{
+  width:18px;height:18px;
+  color:#F59E0B !important;
+  fill:#F59E0B !important;
+  stroke:#F59E0B !important;
+}
+.review blockquote{font-family:var(--f-serif);font-size:18px;line-height:1.5;color:var(--ink-2);margin:0 0 16px;font-style:italic;letter-spacing:-.005em}
 .review figcaption{display:flex;flex-direction:column;gap:2px;padding-top:14px;border-top:1px solid var(--line-2)}
 .review__name{font-family:var(--f-display);font-weight:500;font-size:14.5px}
 .review__meta{font-size:12.5px;color:var(--slate)}

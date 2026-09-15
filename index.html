@@ -21,12 +21,12 @@
 <!-- Fonts -->
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,500;12..96,600;12..96,700&family=Instrument+Serif:ital@0;1&family=Geist:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,600&family=Instrument+Serif:ital@0;1&family=Geist:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
 
 <!-- Icons -->
 <script src="https://unpkg.com/lucide@0.454.0/dist/umd/lucide.min.js" defer></script>
 
-<link rel="stylesheet" href="styles.css?v=3" />
+<link rel="stylesheet" href="styles.css?v=4" />
 <link rel="stylesheet" href="expressive.css?v=2" />
 
 <!-- LocalBusiness structured data -->
@@ -221,6 +221,31 @@
   </div>
 </section>
 
+<!-- ============ MARQUEE / EDITORIAL BAND ============ -->
+<section class="marquee-band" aria-hidden="true">
+  <div class="marquee">
+    <div class="marquee__track">
+      <span class="marquee__item"><em>Income Tax</em></span><span class="marquee__sep">✦</span>
+      <span class="marquee__item"><em>GST Registration</em></span><span class="marquee__sep">✦</span>
+      <span class="marquee__item"><em>ITR Filing</em></span><span class="marquee__sep">✦</span>
+      <span class="marquee__item"><em>Company Registration</em></span><span class="marquee__sep">✦</span>
+      <span class="marquee__item"><em>Accounting</em></span><span class="marquee__sep">✦</span>
+      <span class="marquee__item"><em>TDS</em></span><span class="marquee__sep">✦</span>
+      <span class="marquee__item"><em>Tax Notice</em></span><span class="marquee__sep">✦</span>
+      <span class="marquee__item"><em>MSME · Udyam</em></span><span class="marquee__sep">✦</span>
+      <!-- duplicate for seamless loop -->
+      <span class="marquee__item"><em>Income Tax</em></span><span class="marquee__sep">✦</span>
+      <span class="marquee__item"><em>GST Registration</em></span><span class="marquee__sep">✦</span>
+      <span class="marquee__item"><em>ITR Filing</em></span><span class="marquee__sep">✦</span>
+      <span class="marquee__item"><em>Company Registration</em></span><span class="marquee__sep">✦</span>
+      <span class="marquee__item"><em>Accounting</em></span><span class="marquee__sep">✦</span>
+      <span class="marquee__item"><em>TDS</em></span><span class="marquee__sep">✦</span>
+      <span class="marquee__item"><em>Tax Notice</em></span><span class="marquee__sep">✦</span>
+      <span class="marquee__item"><em>MSME · Udyam</em></span><span class="marquee__sep">✦</span>
+    </div>
+  </div>
+</section>
+
 <!-- ============ SERVICE FINDER ============ -->
 <section class="section" id="finder" aria-labelledby="finder-h">
   <div class="wrap">
@@ -265,31 +290,6 @@
           <a href="#consult" class="btn btn--primary">Talk to TAX MASTER</a>
         </div>
       </div>
-    </div>
-  </div>
-</section>
-
-<!-- ============ MARQUEE / EDITORIAL BAND ============ -->
-<section class="marquee-band" aria-hidden="true">
-  <div class="marquee">
-    <div class="marquee__track">
-      <span class="marquee__item"><em>Income Tax</em></span><span class="marquee__sep">✦</span>
-      <span class="marquee__item"><em>GST Registration</em></span><span class="marquee__sep">✦</span>
-      <span class="marquee__item"><em>ITR Filing</em></span><span class="marquee__sep">✦</span>
-      <span class="marquee__item"><em>Company Registration</em></span><span class="marquee__sep">✦</span>
-      <span class="marquee__item"><em>Accounting</em></span><span class="marquee__sep">✦</span>
-      <span class="marquee__item"><em>TDS</em></span><span class="marquee__sep">✦</span>
-      <span class="marquee__item"><em>Tax Notice</em></span><span class="marquee__sep">✦</span>
-      <span class="marquee__item"><em>MSME · Udyam</em></span><span class="marquee__sep">✦</span>
-      <!-- duplicate for seamless loop -->
-      <span class="marquee__item"><em>Income Tax</em></span><span class="marquee__sep">✦</span>
-      <span class="marquee__item"><em>GST Registration</em></span><span class="marquee__sep">✦</span>
-      <span class="marquee__item"><em>ITR Filing</em></span><span class="marquee__sep">✦</span>
-      <span class="marquee__item"><em>Company Registration</em></span><span class="marquee__sep">✦</span>
-      <span class="marquee__item"><em>Accounting</em></span><span class="marquee__sep">✦</span>
-      <span class="marquee__item"><em>TDS</em></span><span class="marquee__sep">✦</span>
-      <span class="marquee__item"><em>Tax Notice</em></span><span class="marquee__sep">✦</span>
-      <span class="marquee__item"><em>MSME · Udyam</em></span><span class="marquee__sep">✦</span>
     </div>
   </div>
 </section>
@@ -358,12 +358,6 @@
     </p>
 
     <div class="founder__sig">
-      <div class="founder__sig-line" aria-hidden="true">
-        <svg viewBox="0 0 240 60" width="180" height="46" role="img" aria-label="Signature">
-          <path d="M8 42 C 22 12, 40 12, 48 38 C 54 54, 68 24, 78 30 C 90 38, 96 20, 112 26 C 130 34, 138 14, 156 22 C 170 28, 182 20, 198 30 C 210 38, 220 34, 232 26"
-                fill="none" stroke="#D4A15A" stroke-width="2.2" stroke-linecap="round"/>
-        </svg>
-      </div>
       <div class="founder__sig-name">Gurukiran P</div>
       <div class="founder__sig-role">Founder · TAX MASTER · Bangalore</div>
     </div>
@@ -512,42 +506,42 @@
         <h2 id="reviews-h" class="sec-title">What our clients say.</h2>
       </div>
       <p class="sec-sub sec-sub--right">
-        Testimonials shown here are placeholders — real Google reviews will replace them.
-        <a href="#" class="tlink">Share your experience <i data-lucide="arrow-up-right"></i></a>
+        Trusted by businesses, hotels, and entrepreneurs across Bangalore.
+        <a href="https://wa.me/919945231507?text=Hello%20TAX%20MASTER%2C%20I%20would%20like%20to%20share%20my%20feedback." target="_blank" rel="noopener" class="tlink">Share your experience <i data-lucide="arrow-up-right"></i></a>
       </p>
     </header>
 
     <div class="reviews">
       <figure class="review">
-        <div class="review__stars" aria-label="5 out of 5">
+        <div class="review__stars" aria-label="5 out of 5 stars">
           <i data-lucide="star"></i><i data-lucide="star"></i><i data-lucide="star"></i><i data-lucide="star"></i><i data-lucide="star"></i>
         </div>
-        <blockquote>[Placeholder testimonial — real Google review copy will appear here once the Business Profile is connected.]</blockquote>
+        <blockquote>“Tax Master has been very professional and reliable in handling our accounting and tax-related requirements. Their team explains things clearly, responds quickly, and makes the entire process much easier to manage. We appreciate their attention to detail and would definitely recommend Tax Master to other businesses.”</blockquote>
         <figcaption>
-          <span class="review__name">Client name</span>
-          <span class="review__meta">ITR Filing · Bangalore</span>
+          <span class="review__name">21TechGlory</span>
+          <span class="review__meta">Accounting &amp; Tax Compliance · Bangalore</span>
         </figcaption>
       </figure>
 
       <figure class="review">
-        <div class="review__stars" aria-label="5 out of 5">
+        <div class="review__stars" aria-label="5 out of 5 stars">
           <i data-lucide="star"></i><i data-lucide="star"></i><i data-lucide="star"></i><i data-lucide="star"></i><i data-lucide="star"></i>
         </div>
-        <blockquote>[Placeholder testimonial — replace with a genuine client story once collected.]</blockquote>
+        <blockquote>“We have had a good experience working with Tax Master for our business accounting and taxation requirements. Their team is approachable, responsive, and takes the time to explain everything properly. Their professional support has made managing our financial and compliance requirements much easier.”</blockquote>
         <figcaption>
-          <span class="review__name">Client name</span>
-          <span class="review__meta">GST Registration · Sahakara Nagar</span>
+          <span class="review__name">SLV PG &amp; Hotels</span>
+          <span class="review__meta">Hospitality &amp; Business Taxation · Bangalore</span>
         </figcaption>
       </figure>
 
       <figure class="review">
-        <div class="review__stars" aria-label="5 out of 5">
+        <div class="review__stars" aria-label="5 out of 5 stars">
           <i data-lucide="star"></i><i data-lucide="star"></i><i data-lucide="star"></i><i data-lucide="star"></i><i data-lucide="star"></i>
         </div>
-        <blockquote>[Placeholder testimonial — pending genuine review from a Business Registration client.]</blockquote>
+        <blockquote>“Tax Master has provided us with professional support for our business taxation and accounting requirements. We especially appreciate their quick communication and practical guidance whenever we have questions. They have made the compliance process much more organized and convenient for our business.”</blockquote>
         <figcaption>
-          <span class="review__name">Client name</span>
-          <span class="review__meta">Company Registration · Bangalore</span>
+          <span class="review__name">Maya Bazar</span>
+          <span class="review__meta">Business Taxation &amp; Accounting · Bangalore</span>
         </figcaption>
       </figure>
     </div>
